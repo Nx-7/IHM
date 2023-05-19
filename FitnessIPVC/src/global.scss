@@ -1,0 +1,84 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "@ionic/angular/css/normalize.css";
+@import "@ionic/angular/css/structure.css";
+@import "@ionic/angular/css/typography.css";
+@import '@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "@ionic/angular/css/padding.css";
+@import "@ionic/angular/css/float-elements.css";
+@import "@ionic/angular/css/text-alignment.css";
+@import "@ionic/angular/css/text-transformation.css";
+@import "@ionic/angular/css/flex-utils.css";
+
+ion-content{
+    --ion-background-color:#ffffff;
+}
+
+ion-col {
+    display: flex;
+}
+ion-card {
+    padding: 0px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 25px; 
+    font-size: x-large;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+
+.cab {
+    width: 320px;
+    height: 78.93px;
+    left: 35px;
+    top: 55px;
+}
+
+
+
+ion-tab-button {
+    // Icon and text
+    color: rgb(0, 0, 0);
+    
+    // Background
+    background: white;
+    
+}
+
+.backbutton{
+    
+    position: absolute;
+    top: 18px;
+    left: 25px;
+    font-size: 10px;
+    --background: #cecece;
+    --border-radius: 10px;
+    --background-activated: #7B7B7B;
+    color: black;
+    
+}

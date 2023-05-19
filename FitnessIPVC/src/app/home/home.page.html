@@ -1,0 +1,76 @@
+
+<ion-tabs>
+  <ion-router-outlet></ion-router-outlet>
+
+  <ion-tab-bar slot="bottom"  color="black">
+    <ion-tab-button tab="home">
+      <ion-icon name="person-circle-outline"></ion-icon>
+    </ion-tab-button>
+    <ion-tab-button tab="radio">
+      <ion-icon name="home"></ion-icon>
+    </ion-tab-button>
+    <ion-tab-button tab="library">
+      <ion-icon name="notifications"></ion-icon>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>
+
+
+<ion-content [fullscreen]="true">
+  <div class="logo">
+  <img src="../../assets/logo.png" />
+  </div>
+  <div class="homepage_grid">
+    <div>
+      <ion-button (click) = "showExercises()" class="botao">
+        <div>
+          <img src="../../assets/alter.png" alt="" class="icons"><p class="texto">Exercises</p>
+        </div>
+      </ion-button>
+    </div>
+    
+    <div>
+      <ion-button (click)="showPlans()" class="botao">
+        <div>
+          <img src="../../assets/plano.png" alt="" class="icons2"><p class="texto2">WorkOut <br> Plans</p>
+        </div>
+      </ion-button>
+    </div>
+
+    <div>
+      <ion-button (click)="showProgress()" class="botao">
+        <div>
+          <img src="../../assets/graph.png" alt="" class="icons3"><p class="texto2">Physical <br> Progress</p>
+        </div>
+      </ion-button>
+    </div>
+
+    <div>
+      <ion-button class="botao">
+        <div>
+          <img src="../../assets/food.png" alt="" class="icons4"><p class="texto2">Nutricion</p>
+        </div>
+      </ion-button>
+    </div>
+
+    <div>
+      <ion-button class="botao">
+        <div>
+          <img src="../../assets/pt.png" alt="" class="icons5"><p class="texto2">Personal <br> Training</p>
+        </div>
+      </ion-button>
+    </div>
+
+    <div>
+      <ion-button class="botao">
+        <div>
+          <img src="../../assets/health.png" alt="" class="icons6"><p class="texto2">Health</p>
+        </div>
+      </ion-button>
+    </div>
+    
+  </div>
+</ion-content>
+
+
+

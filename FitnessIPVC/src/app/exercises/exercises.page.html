@@ -1,0 +1,150 @@
+<ion-header>
+  <ion-title class="titulo2">Exercises</ion-title>
+  <div class="searchbarcontainer">
+    <ion-searchbar class="searchbar"></ion-searchbar>
+  </div>
+
+  <ion-button (click)="showHome()" class="backbutton">
+    <ion-icon name="chevron-back-outline"></ion-icon>
+  </ion-button>
+</ion-header>
+
+<ion-content>
+  <div class="fixo">
+    <ion-grid>
+      <ion-row>
+        <ion-col size="12">
+          <ion-segment scrollable class="filtro">
+            <ion-button value="back" shape="round" class="scroll-button">
+              <ion-label>Back</ion-label>
+            </ion-button>
+            <ion-button value="hamstring" shape="round" class="scroll-button">
+              <ion-label>Hamstring</ion-label>
+            </ion-button>
+            <ion-button value="calves" shape="round" class="scroll-button">
+              <ion-label>Calves</ion-label>
+            </ion-button>
+            <ion-button value="chest" shape="round" class="scroll-button">
+              <ion-label>Chest</ion-label>
+            </ion-button>
+            <ion-button value="shoulders" shape="round" class="scroll-button">
+              <ion-label>Shoulders</ion-label>
+            </ion-button>
+            <ion-button value="triceps" shape="round" class="scroll-button">
+              <ion-label>Triceps</ion-label>
+            </ion-button>
+            <ion-button value="biceps" shape="round" class="scroll-button">
+              <ion-label>Biceps</ion-label>
+            </ion-button>
+            <ion-button value="forearms" shape="round" class="scroll-button">
+              <ion-label>Forearms</ion-label>
+            </ion-button>
+            <ion-button value="trapezius" shape="round" class="scroll-button">
+              <ion-label>Trapezius</ion-label>
+            </ion-button>
+            <ion-button value="abs" shape="round" class="scroll-button">
+              <ion-label>Abs</ion-label>
+            </ion-button>
+          </ion-segment>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+  <div class="scroll">
+    <div class="cardpadding">
+      <ion-card class="card1" (click)="cardClicked()">
+        <img src="../../assets/card1.png" />
+        <ion-card-content>
+          <h1 class="cardtitulo">Pull Up</h1>
+          <p class="texto">
+            Pull-ups strengthen your chest, shoulders, arms, and core
+          </p>
+          <div class="teste45">
+            <p class="type">
+              Back Muscles 
+            </p>
+            <ion-badge class="easy">Easy</ion-badge>
+          </div>
+        </ion-card-content>
+      </ion-card>
+    </div>
+
+    <div class="cardpadding">
+      <ion-card class="card1">
+        <img src="../../assets/card2.png" />
+        <ion-card-content>
+          <h1 class="cardtitulo">Lat PullDown</h1>
+          <p class="texto">
+            Works the back muscles, especially the large, which are commonly
+            called the "lats."
+          </p>
+
+          <div class="teste45">
+            <p class="type">
+              Back Muscles 
+            </p>
+            <ion-badge class="medium">Medium</ion-badge>
+          </div>
+        </ion-card-content>
+      </ion-card>
+    </div>
+
+    <div class="cardpadding">
+      <ion-card class="card1">
+        <img src="../../assets/card3.png" />
+        <ion-card-content>
+          <h1 class="cardtitulo">DeadLift</h1>
+          <p class="texto">
+            Works the back muscles, especially the large, flat latissimus dorsi,
+            which are commonly called the "lats."
+          </p>
+          <div class="teste45">
+            <p class="type">
+              Back Muscles 
+            </p>
+            <ion-badge class="hard">Hard</ion-badge>
+          </div>
+        </ion-card-content>
+      </ion-card>
+    </div>
+
+    <div class="cardpadding">
+      <ion-card class="card1">
+        <img src="../../assets/card4.png" />
+
+        <ion-card-content>
+          <h1 class="cardtitulo">Cable Row</h1>
+          <p class="texto">
+            Its a safe way to build strength and muscle in the back and arms.
+          </p>
+          <div class="teste45">
+            <p class="type">
+              Back Muscles 
+            </p>
+            <ion-badge class="medium">Medium</ion-badge>
+          </div>
+        </ion-card-content>
+      </ion-card>
+    </div>
+
+    <div class="cardpadding">
+      <ion-card class="card1">
+        <img src="../../assets/card5.png" />
+        <ion-card-content>
+          <h1 class="cardtitulo">Dumbbell Single Arm Row</h1>
+          <p class="texto">
+            Builds a strong back, strengthens your shoulders, upper arms, and
+            core.
+          </p>
+          <div class="teste45">
+            <p class="type">
+              Back Muscles 
+            </p>
+            <ion-badge class="hard">Hard</ion-badge>
+          </div>
+        </ion-card-content>
+      </ion-card>
+    </div>
+  </div>
+</ion-content>
