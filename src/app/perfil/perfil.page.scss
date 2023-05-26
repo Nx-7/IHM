@@ -1,0 +1,42 @@
+ion-toolbar {
+    position: absolute;
+    width: 412px;
+    height: 64px;
+    text-align: center;
+    color: #000;
+}
+
+ion-header {
+    position: absolute;
+    width: 412px;
+    height: 64px;
+    --ion-background-color: #fff;
+}
+
+.titulo2 {
+    margin-top: -1px;
+}
+
+ion-content {
+    --background: #fff;
+}
+
+.account {
+    color:#000
+}
+
+.account_info {
+    position: absolute;
+    width: 315px;
+    height: 189px;
+    left: 48px;
+    top: 272px;
+
+    background: #E3E3E3;
+    /* card-shadow */
+
+    box-shadow: 0px 10px 40px rgba(29, 22, 23, 0.07);
+    border-radius: 16px;
+
+    color: #7B6F72;
+}

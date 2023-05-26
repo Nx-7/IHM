@@ -1,0 +1,146 @@
+.scroll-button {
+  --background: #cecece;
+  --background-hover: #908f8f;
+  --background-activated: #7b7b7b;
+  --background-focused: #cecece;
+  color: #000000;
+}
+
+.searchbarcontainer {
+  padding: 0px 5px 0px 5px;
+}
+
+.searchbar {
+  display: flex;
+  color: #fbfbfb;
+  height: 46px;
+  top: 75px;
+  background: #313131;
+  border-radius: 100px;
+}
+
+.cardpadding {
+  padding: 0px 5px 0px 5px;
+}
+
+.titulo2 {
+  height: 45px;
+  top: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 42px;
+  color: #313131;
+}
+
+.filtro {
+  width: auto;
+  top: 131px;
+  overflow-x: scroll;
+  background: transparent;
+  position: relative;
+}
+
+.backbutton {
+  position: absolute;
+  top: 18px;
+  left: 25px;
+  font-size: 10px;
+  --background: #cecece;
+  --border-radius: 10px;
+  --background-activated: #7b7b7b;
+}
+
+.card1 {
+  background-color: #cecece;
+
+  ion-card-content {
+    padding: 5px;
+  }
+}
+
+.teste {
+  position: relative;
+  font-size: x-large;
+  color: #000000;
+  top: 0;
+  left: 0;
+}
+
+ion-card {
+  display: flex;
+  gap: 8px;
+  padding: 12px;
+  margin: 5px 5px 10px 5px;
+
+  ion-card-content {
+    width: 100%;
+  }
+}
+
+.fixo {
+  position: fixed;
+  top: 0;
+  height: 100px;
+  width: 100%;
+}
+
+.scroll {
+  margin-top: 160px;
+  height: calc(100vh - 205px);
+  overflow-y: auto;
+}
+
+.cardtitulo {
+  color: #000000;
+  margin-top: -6px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.texto {
+  color: #2e2e2e;
+  font-size: 12px;
+}
+
+.teste45 {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  align-items: flex-end;
+}
+
+.type {
+  display: flex;
+}
+
+.easy {
+  display: flex;
+  justify-content: center;
+  background-color: green;
+  color: black;
+}
+
+.medium {
+  display: flex;
+  justify-content: center;
+  background-color: yellow;
+  color: black;
+}
+
+.hard {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  color: black;
+}
+
+ion-card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.searchbarcontainer {
+  margin-top: -30px;
+}

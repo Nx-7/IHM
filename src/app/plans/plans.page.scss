@@ -1,0 +1,40 @@
+.titulo{
+    margin-top:80px; 
+    margin-left: 20px; 
+    font-size: 23px;
+}
+
+.card1 {
+    background-color: #CECECE;
+    
+
+    ion-card-content {
+        padding: 5px;
+    }
+
+    
+}
+
+.cardtitulo {
+    color: #000000;
+    margin-top: -6px;
+    font-weight: bold;
+    font-size: 20px;
+}
+  
+.texto {
+    color: #2e2e2e;
+    font-size: 12px;
+}
+
+.type{
+    position: absolute;
+    top: 105px;
+
+}
+
+.scroll {
+    margin-top: 160px;
+    height: calc(100vh - 205px);
+    overflow-y: auto;
+  }

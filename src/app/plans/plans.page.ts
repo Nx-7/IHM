@@ -1,28 +1,29 @@
 import { Component, OnInit } from '@angular/core';
-import { IonicModule, NavController } from '@ionic/angular';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-console.log();
+import { IonicModule, NavController } from '@ionic/angular';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: 'home.page.html',
-  styleUrls: ['home.page.scss'],
+  selector: 'app-plans',
+  templateUrl: './plans.page.html',
+  styleUrls: ['./plans.page.scss'],
   standalone: true,
   imports: [IonicModule, CommonModule, FormsModule]
 })
-export class HomePage implements OnInit {
+export class PlansPage implements OnInit {
 
-  constructor(private navCtrl: NavController) {
+  constructor(private navCtrl: NavController) { }
 
+  ngOnInit() {
   }
 
-  ngOnInit(){   
+  showHome(){
+    this.navCtrl.navigateForward('home')
   }
 
   showExercises(){
     this.navCtrl.navigateForward('exercises')
-    console.log()
+    
   }
 
   showExercises2(){
