@@ -1,0 +1,7 @@
+{
+  "name": "FitnessIPVC",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
