@@ -11,25 +11,99 @@
 
 <ion-content>
 
-    <div class="account_info">
-        <ion-title class="account">
+    <div class = "name_box">
+        <ion-title class="name_text">Pedro Dantas</ion-title>
+        <div class = "edit_name_box">
+            <h5>Edit</h5>
+        </div>
+    </div>
+
+    <div class = "personal_data_box">
+        <div class = "height">
+            <ion-title class="measure_value">
+                <h5>175cm</h5>
+            </ion-title>
+            <ion-label class="measure_name_box">
+                <p class="measure_name">Height</p>
+            </ion-label>
+        </div>
+    
+        <div class = "weight">
+            <ion-title class="measure_value">
+                <h5>68kg</h5>
+            </ion-title>
+            <ion-label class="measure_name_box">
+                <p class="measure_name">Weight</p>
+            </ion-label>
+        </div>
+    
+        <div class = "age">
+            <ion-title class="measure_value">
+                <h5>21yo</h5>
+            </ion-title>
+            <ion-label class="measure_name_box">
+                <p class="measure_name">Age</p>
+            </ion-label>
+        </div>
+    </div>
+
+    <div class="account_box">
+        <ion-title class="title_box">
             <h3>Account</h3>
           </ion-title>
+
           <ion-list>
-            <ion-item>
-              <ion-label>Personal Data</ion-label>
-            </ion-item>
-            <ion-item>
-              <ion-label>Achievement</ion-label>
-            </ion-item>
-            <ion-item>
-              <ion-label>Activity History</ion-label>
-            </ion-item>
-            <ion-item>
-              <ion-label>Workout Progress</ion-label>
-            </ion-item>
+              <ion-label >
+                <ion-icon name="person-outline" class = "icons"></ion-icon>
+                <p class="text1">Personal Data</p>
+            </ion-label>
+              <ion-label >
+                <ion-icon name="list-outline" class = "icons"></ion-icon>
+                <p class="text1">Achievement</p>
+            </ion-label>
+              <ion-label >
+                <ion-icon name="pie-chart-outline" class = "icons"></ion-icon>
+                <p class="text1">Activity History</p>
+            </ion-label>
+              <ion-label >
+                <ion-icon name="bar-chart" class = "icons"></ion-icon>
+                <p class="text1">Workout Progress</p>
+            </ion-label>
           </ion-list>
     </div>
     
+    <div class="notification_box">
+        <ion-title class="title_box">
+            <h3>Notification</h3>
+          </ion-title>
+            <ion-list>
+                <ion-label >
+                    <ion-icon name="notifications-outline" class = "icons"></ion-icon>
+                    <p class="text1">Notification</p>
+                </ion-label>
+            </ion-list>
+          
+    </div>
+
+    <div class = "other_box">
+        <ion-title class="title_box">
+            <h3>Other</h3>
+          </ion-title>
+
+          <ion-list>
+              <ion-label >
+                <ion-icon name="mail-outline" class = "icons"></ion-icon>
+                <p class="text1">Contact Us</p>
+            </ion-label>
+              <ion-label >
+                <ion-icon name="shield-checkmark-outline" class = "icons"></ion-icon>
+                <p class="text1">Privacy Policy</p>
+            </ion-label>
+              <ion-label >
+                <ion-icon name="settings-outline" class = "icons"></ion-icon>
+                <p class="text1">Settings</p>
+            </ion-label>
+          </ion-list>
+    </div>
 
 </ion-content>
